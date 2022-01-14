@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Mouse+Memoirs|Lato|Dosis&display=swap');
+
+
+h1, h2 {
+  font-family: 'Mouse Memoirs', fantasy ;
+  line-height: 1.1em;
+  padding: 10px;
+  text-align: center;
+  color: #0a0f3f;
+}
+
+h1{
+    font-size: 3em;
+}
+
+li{
+    font-family: 'Lato', Helvetica, sans-serif;
+}
+
+p {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-size: 1.15em;
+  line-height: 1.25em;
+  padding: 10px;
+  color: rgb(63, 28, 160);
+  margin: 0;
+  text-align: center;
+}
+
+body{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(28, 206, 250);
+    padding: 5px 25px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+img{
+    max-width: 100px;
+    margin: 10px auto;
+}
+
+footer{
+    background-color: rgb(28, 206, 250);
+    padding: 5px auto;
+    text-align: center;
+}
+
+#last_update{
+    color: white;
+}
