@@ -10,7 +10,7 @@ h1, h2 {
 }
 
 h1{
-    font-size: 3em;
+    font-size: 2em;
 }
 
 li{
@@ -36,7 +36,7 @@ header{
     background-color: rgb(28, 206, 250);
     padding: 5px 25px;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1/2;
 }
 
 img{
