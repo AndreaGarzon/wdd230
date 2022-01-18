@@ -6,7 +6,7 @@ h1, h2 {
   line-height: 1.1em;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: whitesmoke;
 }
 
 h1{
@@ -14,7 +14,10 @@ h1{
 }
 
 h3{
-    background-color: whitesmoke;
+    background-color: rgb(85, 94, 95);
+    color: whitesmoke;
+    font-size: 1.5em;
+    margin: 5 auto;
 }
 
 li{
@@ -43,12 +46,12 @@ header{
 }
 
 main{
-    background-color: rgb(181, 207, 211);
+    background-color: rgb(85, 94, 95);
     padding: 5px 25px;
 }
 
 div{
-    background-color: rgb(85, 94, 95);
+    background-color: rgb(181, 207, 211);
     padding: 5px 25px; 
     margin: 0 auto;
     max-width: 90%;
@@ -64,4 +67,12 @@ footer{
     background-color: rgb(17, 50, 58);
     padding: 5px 0;
     text-align: center;
+}
+
+.footer_font{
+    color: whitesmoke;
+}
+
+#last_update{
+    color: whitesmoke;
 }
