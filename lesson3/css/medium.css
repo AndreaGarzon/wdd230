@@ -1,0 +1,46 @@
+@media only screen and (min-width: 32.5em) {
+
+    h1{
+        font-size: 3em;
+      }
+
+    h2{
+        font-size: 2em;
+    }
+
+    h3{
+        font-size: 1.5em;
+    }
+
+    ul{
+        font-size: 2em;
+    }
+
+    p{
+        font-size: 2em;
+    }
+
+    body{
+        max-width: 100%;
+    }
+
+    .personas{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        
+    }
+
+    .personas > p {
+        text-align: left;
+        font-size: 0.5em;
+        padding: 5px;
+        margin: 0 auto;
+    }
+    
+    .personas > img{
+        margin: auto auto;
+        max-width: 80%;
+    }
+
+    
+}
