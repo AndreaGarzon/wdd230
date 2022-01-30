@@ -13,11 +13,13 @@
     }
 
     ul{
+        display: flex;
+        flex-direction: row;
         font-size: 3em;
     }
 
     p{
-        font-size: 3em;
+        font-size: 2em;
     }
 
     body{

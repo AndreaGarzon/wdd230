@@ -13,11 +13,17 @@
     }
 
     ul{
+        display: flex;
+        flex-direction: row;
         font-size: 2em;
     }
 
+    li{
+        flex: auto;
+    }
+
     p{
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     body{
