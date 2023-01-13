@@ -19,11 +19,13 @@
         <link rel="icon" href="favicon.ico">
       
     </head>
-    <body>
+    <body class="card">
         <nav>
-            <img src="images/hamburguer.svg" alt="hamburguer menu">
-            <p><a>https://www.linkedin.com/in/andreajgarzon/?locale=en_US</a></p>
-            <p><a>https://www.byui.edu/</a></p>
+            <ul class="menu">
+                <li class="menu-button"><img src="images/hamburguer.svg" alt="hamburguer menu"></li>
+                <li class="menu-item"><a href="https://www.linkedin.com/in/andreajgarzon/?locale=en_US">LinkedIn Profile</a></li>
+                <li class="menu-item"><a href="https://www.byui.edu/">BYUI Page</a></li>
+            </ul>
         </nav>
         <header>
             <img src="images/Andrea.webp" alt="Andrea Garzon's photograph">
@@ -45,9 +47,9 @@
             </section>
             <section class="card">
                 <h3>Project</h3>
-                <a href="#">chamber project folder</a>
+                <a href="#">Chamber Project Folder</a>
             </section>
-            <section class="card">
+            <section class="card" id="info">
                 <h3>Information</h3>
                 <p>weather</p>
                 <p>Visits</p>
@@ -59,6 +61,7 @@
                 <span id="last_update"></span>
             </p>
         </footer>
+        <script src="scripts/menu.js"></script>
         <script src="scripts/getDates.js"></script>
         
     </body>
