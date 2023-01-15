@@ -15,6 +15,10 @@ h1{
     grid-row: 1/3;
 }
 
+h2 {
+    color: #00471b;
+}
+
 li{
     font-family: 'Lato', Helvetica, sans-serif;
 }
@@ -183,7 +187,7 @@ header > p {
 
 .up {
     position: absolute;
-    background-color: #00471b;
+    background-color: #E6E8E6;
     left: 40px;
     top: 50px;
 }
@@ -195,7 +199,7 @@ header > p {
 .weather-card {
     padding: 20px;
     margin: 20px 20px;
-    background: #00471b;
+    background: #E6E8E6;
     color: var(--Titles);
     border-style: double;
     border-radius: 3px;
@@ -254,11 +258,4 @@ span > p {
     margin-top: 20px;
     border-top: #b4975a;
     border-style: double;
-}
-
-.alert {
-    grid-row: 4/5;
-    grid-column: 1/5;
-    background-color: #00471b;
-    color: #e6e8e6;
 }
