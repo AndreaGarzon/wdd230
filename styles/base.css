@@ -98,3 +98,26 @@ footer{
     margin: 0 5px;
     padding: 5px;
 }
+
+#hero {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#hero-container {
+    position: relative;
+}
+
+#hero-text {
+    position: absolute;
+    top: 10%;
+    left:5%;
+}
+
+#hero-text p {
+    font-size: 2em;
+    color: black;
+    font-family: 'Mouse Memoirs', fantasy;
+    background-color: rgba(204, 202, 178, 0.5);
+}
