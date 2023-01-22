@@ -16,19 +16,33 @@ button.addEventListener("click", function() {
         setChapterList();
         input.value = "";
         input.focus();
-
-       
     }
 })
 
 function displayList (item) {
     const li = document.createElement("li");
     const del = document.createElement("button");
-    li.textContent = input.value;
+    li.textContent = item;
     del.textContent = "❌";
-    li.append(del);
+    li.appendChild(del);
     list.appendChild(li);
     del.addEventListener("click", function() {
         list.removeChild(li);
+        deleteChapter(li.textContent);
+        input.focus();
     })
+}
+
+function setChapterList() {
+    localStorage.setItem("favOfBOM", JSON.stringify(chapters));
+}
+
+function getChapterList() {
+    return JSON.parse(localStorage.getItem("favOfBOM"));
+}
+
+function deleteChapter(chapter) {
+    chapter = chapter.slice(0, chapter.length-1);
+    chapters = chapters.filter((item) => item !== chapter);
+    setChapterList();
 }
