@@ -71,11 +71,44 @@
                <input type="text" id="name" name="full-name" required>
                <label for="email">E-mail</label>
                <input type="email" id="email" name="e-mail" required>
-               <label for="rating">Rate the page</label>
-               <input type="range" id="rating" name="page-rating">
-               <label for="password"></label>
+               <label for="rating">Rate the page (<span id="rate-value"></span>)</label>
+               <div id="rate-elements">
+                <input type="range" id="rating" name="page-rating" min="1" max="10" list="ten">
+                    <div id="ratevalues-div">
+                        <span class="ratevalue">1</span>
+                        <span class="ratevalue">2</span>
+                        <span class="ratevalue">3</span>
+                        <span class="ratevalue">4</span>
+                        <span class="ratevalue">5</span>
+                        <span class="ratevalue">6</span>
+                        <span class="ratevalue">7</span>
+                        <span class="ratevalue">8</span>
+                        <span class="ratevalue">9</span>
+                        <span class="ratevalue">10</span>
+                    <div>
+                </div>
+                <br>
+               <label for="password">Password</label>
                <input type="password" id="password" name="user-password" required>
+               <label for="confirm">Confirm your password</label>
                <input type="password" id="confirm" name="confirm-password" required> 
+               <br>
+               <div id="messageform"></div>
+               <br>
+               <input type="submit" value="Submit">
+
+               <datalist id="ten">
+                    <option label="1">1</option>
+                    <option label="1">2</option>
+                    <option label="1">3</option>
+                    <option label="1">4</option>
+                    <option label="1">5</option>
+                    <option label="1">6</option>
+                    <option label="1">7</option>
+                    <option label="1">8</option>
+                    <option label="1">9</option>
+                    <option label="1">10</option>
+               </datalist>
             </form>
         </main>
         <footer> 
