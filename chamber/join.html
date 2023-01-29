@@ -6,7 +6,7 @@
             WDD 230 Dulima Chamber of Commerce 
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Home page created for acomplish the assignment of week 2 of the WDD 230 course, BYUI, by Andrea Garzón">
+        <meta name="description" content="Join page created for acomplish the assignment of week 2 of the WDD 230 course, BYUI, by Andrea Garzón">
         <meta name="author" content="Andrea Garzón">
 
         <meta property="og:title" content="Dulima Chamber of Commerce" />
@@ -30,41 +30,37 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discovery</a></li>
                     <li><a href="">Directory</a></li>
-                    <li><a href="join.html">Join</a></li>
+                    <li><a href="">Join</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <div class="box" id="hero">
-                <h2 class="up">Join us</h2>
-                <img src="images/Dulima.webp" alt="Dulima Cacica's Picture">
-            </div>
-            <div class="box" id="events">
-                <img class="event" id="school" src="images/school.webp" alt="school supplies">
-                <h2 class="event">School fair</h2>
-                <p>Get perfect grades with the cutest supplies from our school fair.
-                   Our empowered woman will offer their best creations with the best prices.
-                </p>
-            </div>
-            <div class="weather-card" id="weather">
-                <h2>Weather</h2>
-                    <div class="temperature">
-                        <img class="sun" src="images/sunny.webp" alt="an animated sun">
-                    </div>
-                    <div>Sunny</div>
-                    <div> 28°C / 35°C</div>
-            </div>
-            <section class="box" id="spotlight">
-                <div class="spo-box">
-                    <h2>Be the next cover of our social media pages</h2>
-                </div>
-                <div class="spo-box">
-                    <h2>Train in human resource management with us</h2>
-                </div>
-                <div class="spo-box" id="spo-large">
-                    <h2>Donate to our partner foundations</h2>
-                </div>
-            </section>
+            <form action="thankyou.html" method="get">
+
+                <label>First Name*<input type="text" name="first-name" required></label>
+                <label>Last Name*<input type="text" name="last-name" required></label>
+                <label>Business Position<input type="text" name="position" pattern="()-{7,"></label>
+                <label>Email*<input type="email" name="email" placeholder="example@mail.com" required></label>
+                <label>Cellphone<input type="tel" name="cellphone"></label>
+                <div>Membership Level</div>
+                <label><input type="radio" name="membership" value="nonprofit"> NP Membership </label>
+                <p>for no-porfile associates. No fees</p>
+                <label><input type="radio" name="membership" value="bronze"> Bonze Membership </label>
+                <p>
+                                   </p><label><input type="radio" name="membership" value="silver"> Silver Membership </label>
+                <label><input type="radio" name="membership" value="gold"> Gold Membership </label>
+                <p></p>
+                <label><input type="radio" name="membership" value="nonprofit"> NP Membership </label>
+                <p></p>
+
+                <label>Businee Description <textarea name="description"></textarea></label>
+                
+                <label><input type="hide" name="time" required></label>
+                
+                <input type= "submit" value="Join to the chamber">
+
+
+            </form>
         </main>
         <footer> 
             <div class="footer-logo">
