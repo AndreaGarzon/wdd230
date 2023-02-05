@@ -1,0 +1,74 @@
+{
+    "companies": [
+        {
+            "name": "Tamalería Pijao",
+            "adress": "8856 New Lane Cedar Rapids, IA 52402",
+            "phoneNumber": "+573144717342",
+            "websiteURL": "www.tamaleriapijao.com",
+            "image": "",
+            "level": "",
+            "nextEvent": "Tamal Day"
+        },
+
+        {
+            "name": "Zapatería Jemel",
+            "adress": "6 Westport Street Newington, CT 06111",
+            "phoneNumber": "+573024166619",
+            "websiteURL": "www.jemelstyles.com.co",
+            "image": "",
+            "level": "",
+            "nextEvent": "School shoes sale"
+        },
+        
+        {
+            "name": "Pincel Mágico Elementary School",
+            "adress": " Prairie Rd. West Deptford, NJ 08096",
+            "phoneNumber": "+573208588949",
+            "websiteURL": "www.pincelmagico.colegiosonline.com",
+            "image": "",
+            "level": "Gold",
+            "nextEvent": "English Day"
+        },
+
+        {
+            "name": "El Tren de las Divertareas Kindergarden",
+            "adress": "9 Oakwood Street Chambersburg, PA 17201",
+            "phoneNumber": "+573144870179",
+            "websiteURL": "www.divertareas.edu.co",
+            "image": "",
+            "level": "",
+            "nextEvent": "Family Training"
+        },
+
+        {
+            "name": "HASO Technology",
+            "adress": "9108 Linden Drive Lakewood, NJ 08701",
+            "phoneNumber": "+573176202515",
+            "websiteURL": "",
+            "image": "",
+            "level": "",
+            "nextEvent": "Drone's sale"
+        },
+
+        {
+            "name": "Enjoy Park",
+            "adress": "7386 W. Peninsula Drive San Jose, CA 95127",
+            "phoneNumber": "+573143688493",
+            "websiteURL": "www.enjoyparkibague.com",
+            "image": "",
+            "level": "",
+            "nextEvent": "Jump Champeonship"
+        },
+
+        {
+            "name": "Luzan Store",
+            "adress": "81 Tower St. Prior Lake, MN 55372",
+            "phoneNumber": "+573212553243",
+            "websiteURL": "www.luzanstore.com.co",
+            "image": "",
+            "level": "",
+            "nextEvent": "book exchange"
+        },
+
+    ]
+}
