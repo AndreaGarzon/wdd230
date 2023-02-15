@@ -5,8 +5,8 @@
             "adress": "8856 New Lane Cedar Rapids, IA 52402",
             "phoneNumber": "+573144717342",
             "websiteURL": "www.tamaleriapijao.com",
-            "image": "",
-            "level": "",
+            "image": "./images/tamaleria.webp",
+            "level": "Bronze",
             "nextEvent": "Tamal Day"
         },
 
@@ -15,8 +15,8 @@
             "adress": "6 Westport Street Newington, CT 06111",
             "phoneNumber": "+573024166619",
             "websiteURL": "www.jemelstyles.com.co",
-            "image": "",
-            "level": "",
+            "image": "./images/zapateria.webp",
+            "level": "Silver",
             "nextEvent": "School shoes sale"
         },
         
@@ -25,7 +25,7 @@
             "adress": " Prairie Rd. West Deptford, NJ 08096",
             "phoneNumber": "+573208588949",
             "websiteURL": "www.pincelmagico.colegiosonline.com",
-            "image": "",
+            "image": "./images/pincel.webp",
             "level": "Gold",
             "nextEvent": "English Day"
         },
@@ -35,8 +35,8 @@
             "adress": "9 Oakwood Street Chambersburg, PA 17201",
             "phoneNumber": "+573144870179",
             "websiteURL": "www.divertareas.edu.co",
-            "image": "",
-            "level": "",
+            "image": "./images/kindergarden.webp",
+            "level": "Gold",
             "nextEvent": "Family Training"
         },
 
@@ -44,9 +44,9 @@
             "name": "HASO Technology",
             "adress": "9108 Linden Drive Lakewood, NJ 08701",
             "phoneNumber": "+573176202515",
-            "websiteURL": "",
-            "image": "",
-            "level": "",
+            "websiteURL": "www.hasotech.com.co",
+            "image": "./images/haso.webp",
+            "level": "Silver",
             "nextEvent": "Drone's sale"
         },
 
@@ -55,8 +55,8 @@
             "adress": "7386 W. Peninsula Drive San Jose, CA 95127",
             "phoneNumber": "+573143688493",
             "websiteURL": "www.enjoyparkibague.com",
-            "image": "",
-            "level": "",
+            "image": "./images/enjoy.webp",
+            "level": "Silver",
             "nextEvent": "Jump Champeonship"
         },
 
@@ -65,8 +65,8 @@
             "adress": "81 Tower St. Prior Lake, MN 55372",
             "phoneNumber": "+573212553243",
             "websiteURL": "www.luzanstore.com.co",
-            "image": "",
-            "level": "",
+            "image": "./images/store.webp",
+            "level": "Non-profit",
             "nextEvent": "book exchange"
         }
     ]
