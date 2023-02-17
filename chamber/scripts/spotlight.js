@@ -1,7 +1,7 @@
-const url = "https://andreagarzon.github.io/wdd230/chamber/data/members.json";
+const member = "https://andreagarzon.github.io/wdd230/chamber/data/members.json";
 let companies = undefined;
 
-fetch(url) 
+fetch(member) 
 .then(function(response) {
 
     return response.json();
@@ -29,7 +29,7 @@ function displaySpotlights() {
     spotlights.forEach((spotlight) => {
         
         const spotdiv = document.createElement("div");
-        spotdiv.className = "spot";
+        spotdiv.className = "spo-box";
         const spotname = document.createElement("h2");
         spotname.textContent = companies[spotlight].name;
         const spotadress = document.createElement("p");
@@ -54,10 +54,7 @@ function displaySpotlights() {
         spotdiv.appendChild(spotlevel);
         spotdiv.appendChild(spotevent);
 
-        spotlights.appendChild(spotdiv);
+        spotsection.appendChild(spotdiv);
     })
 
 }
-
-
-

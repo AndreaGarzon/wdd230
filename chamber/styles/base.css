@@ -278,6 +278,10 @@ span > p {
     display: block;
 }
 
-.listMode { 
 
+.alert {
+    grid-row: 4/5;
+    grid-column: 1/5;
+    background-color: #00471b;
+    color: #e6e8e6;
 }
