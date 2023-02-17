@@ -6,7 +6,7 @@
             "phoneNumber": "+573144717342",
             "websiteURL": "www.tamaleriapijao.com",
             "image": "./images/tamaleria.webp",
-            "level": "Bronze",
+            "level": "Silver",
             "nextEvent": "Tamal Day"
         },
 
@@ -56,7 +56,7 @@
             "phoneNumber": "+573143688493",
             "websiteURL": "www.enjoyparkibague.com",
             "image": "./images/enjoy.webp",
-            "level": "Silver",
+            "level": "Bronze",
             "nextEvent": "Jump Champeonship"
         },
 
