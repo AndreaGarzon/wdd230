@@ -44,3 +44,17 @@ function displayMembers (company)
    article.appendChild(space);
 }
 
+const gridButton = document.querySelector("#gridButton");
+const listButton = document.querySelector("#listButton");
+function changeToGrid () {
+    article.classList.add("gridMode");
+    article.classList.remove("listMode");   
+}
+
+function changeToList () {
+    article.classList.add("listMode");
+    article.classList.remove("gridMode");   
+}
+
+gridButton.addEventListener("click", changeToGrid);
+listButton.addEventListener("click", changeToList);

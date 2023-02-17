@@ -258,3 +258,26 @@ span > p {
     border-top: #b4975a;
     border-style: double;
 }
+
+#directoryMain {
+    display: flex;
+    flex-direction: column;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#buttons img {
+    max-height: 100px;
+}
+
+.gridMode {
+    display: block;
+}
+
+.listMode { 
+
+}
