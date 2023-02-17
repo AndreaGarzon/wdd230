@@ -49,13 +49,13 @@
             <div class="weather-card" id="weather">
                 <h2>Weather</h2>
                     <div class="temperature">
-                        <img class="sun" src="images/sunny.webp" alt="an animated sun">
+                        <img id="tempImg" class="sun" src="images/sunny.webp" alt="an animated sun">
                     </div>
-                    <div>Sunny</div>
-                    <div> 28°C / 35°C</div>
+                    <div id="tempText">Sunny</div>
+                    <div id="caption"> 28°C / 35°C</div>
             </div>
             <section class="box" id="spotlight">
-                <div class="spo-box">
+                <!-- <div class="spo-box">
                     <h2>Be the next cover of our social media pages</h2>
                 </div>
                 <div class="spo-box">
@@ -63,7 +63,7 @@
                 </div>
                 <div class="spo-box" id="spo-large">
                     <h2>Donate to our partner foundations</h2>
-                </div>
+                </div> -->
             </section>
         </main>
         <footer> 
@@ -81,6 +81,9 @@
                 </p>
             </div>
         </footer>
-        <script src="scripts/script.js"></script>        
+        <script src="scripts/script.js"></script>
+        <script src="scripts/weather.js"></script>
+        <script src="scripts/up.js"></script> 
+
     </body>
 </html>
