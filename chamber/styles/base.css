@@ -313,7 +313,7 @@ form label{
     font-family: 'Playfair Display', serif;
     font-size: 1.1em;
     padding: 0;
-    color: #f75590;
+    color: #00471b;
     font-weight: bold;
     text-align: left;
 }
@@ -334,7 +334,7 @@ form label.sideLabel {
 form label.textLabel {
     display: block;
     margin-bottom: 15px;
-    color: #f75590;
+    color: #00471b;
     font-weight: bold;
 }
 
