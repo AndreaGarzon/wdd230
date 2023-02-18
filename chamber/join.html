@@ -34,29 +34,29 @@
                 </ul>
             </nav>
         </header>
-        <main>
+        <main id="joinMain">
             <h2>Join us:</h2>
             <form action="thankyou.html" method="get">
 
-                <label>First Name*<input type="text" name="first-name" required></label>
-                <label>Last Name*<input type="text" name="last-name" required></label>
-                <label>Business Position<input type="text" name="position" pattern="(?=.*\W).{7,}"></label>
-                <label>Email*<input type="email" name="email" placeholder="example@mail.com" required></label>
-                <label>Cellphone*<input type="tel" name="cellphone" required></label>
-                <div>
+                <label class="textLabel">First Name*<input type="text" name="first-name" required></label>
+                <label class="textLabel">Last Name*<input type="text" name="last-name" required></label>
+                <label class="textLabel">Business Position<input type="text" name="position" pattern="(?=.*\W).{7,}"></label>
+                <label class="textLabel">Email*<input type="email" name="email" placeholder="example@mail.com" required></label>
+                <label class="textLabel">Cellphone*<input type="tel" name="cellphone" required></label>
+                <div class="memLevel">
                     <h3>Membership Level</h3>
-                    <label><input type="radio" name="membership" value="nonprofit"> NP Membership </label>
+                    <label class="sideLabel"><input type="radio" name="membership" value="nonprofit"> NP Membership </label>
                     <p>for no-porfile associates. No fees</p>
-                    <label><input type="radio" name="membership" value="bronze"> Bronze Membership </label>
+                    <label class="sideLabel"><input type="radio" name="membership" value="bronze"> Bronze Membership </label>
                     <p>2 events and 1 advisory per month</p>
-                    <label><input type="radio" name="membership" value="silver"> Silver Membership </label>
+                    <label class="sideLabel" ><input type="radio" name="membership" value="silver"> Silver Membership </label>
                     <p>4 events and 2 advisory per month</p>
-                    <label><input type="radio" name="membership" value="gold"> Gold Membership </label>
+                    <label class="sideLabel"><input type="radio" name="membership" value="gold"> Gold Membership </label>
                     <p>ilimited events and 4 advisory per month</p>
-                    <label>Businee Description <textarea name="description"></textarea></label>
-                    <label><input id="formDate" type="hidden" name="time"></label>
-                    <input id="submitButton" type= "submit" value="Join to the chamber">
                 </div>
+                <label class="textLabel" id="textarea">Business Description <textarea name="description"></textarea></label>
+                <label class="textLabel"><input id="formDate" type="hidden" name="time"></label>
+                <input id="submitButton" type= "submit" value="Join to the chamber">
 
             </form>
         </main>

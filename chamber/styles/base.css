@@ -289,3 +289,84 @@ span > p {
 #counter{
     background-color: #b4975a;
 }
+
+#joinMain {
+    display: flex;
+    flex-direction: column;
+}
+
+#joinMain h2{
+    padding-left: 20px;
+}
+
+form {
+    margin: 0 auto;
+    padding: 15px;
+}
+
+form label{
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.memLevel h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1em;
+    padding: 0;
+    color: #b4975a;
+    font-weight: bold;
+    text-align: left;
+}
+
+.memLevel {
+    display: flex;
+    flex-direction: column;
+}
+
+form label.sideLabel {
+    min-height: 45px;
+}
+
+.memLevel p {
+    display: none;
+}
+
+form label.textLabel {
+    display: block;
+    margin-bottom: 15px;
+    color: #f75590;
+    font-weight: bold;
+}
+
+textarea {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    max-width: 500px;
+    resize: none;
+}
+
+#textarea {
+    margin: 5px 0;
+}
+
+form label.textLabel input {
+    display: block;
+    height: 45px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.submitButton {
+    padding: 10px;
+}
+
+.submitButton:hover {
+    background-color: #f75590;
+}
+
+#tankyouMain {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 30px;
+}
